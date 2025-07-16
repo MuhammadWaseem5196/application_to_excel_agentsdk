@@ -1,0 +1,21 @@
+[project]
+name = "excel-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MuhammadWaseem5196", email = "159682025+MuhammadWaseem5196@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.6.0",
+    "openai-agents>=0.1.0",
+    "openai-sdk>=0.1.0",
+]
+
+[project.scripts]
+excel-agent = "excel_agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
